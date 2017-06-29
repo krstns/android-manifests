@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="aosp" fetch="https://android.googlesource.com/"/>
-  <!--<remote name="rk" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>-->
-  <remote name="rock64" fetch="https://github.com/rock64-android/"/>
+  <remote name="aosp" fetch="https://android.googlesource.com/" />
+  <remote name="rock64" fetch="https://github.com/rock64-android/" />
+  <remote name="ayufan" fetch="https://github.com/ayufan-rock64/" />
   <default revision="refs/tags/android-7.1.2_r6"
     remote="aosp"
     sync-c="true"
@@ -498,7 +498,7 @@
       <copyfile src="mkimage.sh" dest="mkimage.sh"/>
       <copyfile src="javaenv.sh" dest="javaenv.sh"/>
   </project>
-  <project path="device/rockchip/rk3328" name="device-rockchip-rk3328" remote="rock64" revision="thzy_develop">
+  <project path="device/rockchip/rk3328" name="device-rockchip-rk3328" remote="ayufan" revision="nougat">
 	  <copyfile src="buildspec-rk3328_box.mk" dest="buildspec.mk"/>
 	  <copyfile src="build.sh" dest="build.sh"/>
   </project>
