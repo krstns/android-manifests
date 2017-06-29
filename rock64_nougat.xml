@@ -499,7 +499,6 @@
       <copyfile src="javaenv.sh" dest="javaenv.sh"/>
   </project>
   <project path="device/rockchip/rk3328" name="device-rockchip-rk3328" remote="ayufan" revision="nougat">
-	  <copyfile src="buildspec-rk3328_box.mk" dest="buildspec.mk"/>
 	  <copyfile src="build.sh" dest="build.sh"/>
   </project>
   <project path="rkst" name="rkst" remote="rock64" revision="thzy_develop"/>
