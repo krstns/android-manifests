@@ -45,6 +45,7 @@
   <project path="device/generic/qemu" name="device/generic/qemu" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
+  <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
@@ -493,7 +494,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <!-- Rockchip specific repositories -->
   <!-- RK3399 bringup projects. start -->
-  <project path="device/rockchip/common" name="device-rockchip-common" remote="rock64" revision="thzy_develop">
+  <project path="device/rockchip/common" name="device-rockchip-common" remote="ayufan" revision="nougat">
       <copyfile src=".classpath" dest=".classpath"/>
       <copyfile src="mkimage.sh" dest="mkimage.sh"/>
       <copyfile src="javaenv.sh" dest="javaenv.sh"/>
