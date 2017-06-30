@@ -4,6 +4,8 @@
   <remote name="aosp" fetch="https://android.googlesource.com/" />
   <remote name="rock64" fetch="https://github.com/rock64-android/" />
   <remote name="ayufan" fetch="https://github.com/ayufan-rock64/" />
+  <remote name="ayufan-pine64" fetch="https://github.com/ayufan-pine64" />
+  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
   <default revision="refs/tags/android-7.1.2_r6"
     remote="aosp"
     sync-c="true"
@@ -543,4 +545,14 @@
   <project path="RKTools" name="RKTools" remote="rock64" revision="thzy_develop"/>
   <project path="RKDocs" name="RKDocs" remote="rock64" revision="thzy_develop"/>
   <!-- Rockchip's extra projects. end -->
+
+  <!-- Google Apps support -->
+  <project path="vendor/google/atv-build" name="opengapps_atv_build" revision="nougat" remote="ayufan-pine64" />
+  <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+
+  <!-- SuperSU -->
+  <project path="vendor/supersu" name="vendor-supersu" clone-depth="1" revision="nougat" remote="ayufan-pine64" />
 </manifest>
