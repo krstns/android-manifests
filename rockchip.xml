@@ -14,8 +14,8 @@
   </project>
   <project path="rkst" name="rkst" remote="rock64" revision="thzy_develop"/>
   <project path="vendor/rockchip/common" name="vendor-rockchip-common" remote="rock64" revision="master"/>
-  <project path="kernel" name="android-kernel" remote="rock64" revision="master"/>
-  <project path="u-boot" name="android-u-boot" remote="rock64" revision="master"/>
+  <project path="kernel" name="android-kernel" remote="ayufan" revision="master"/>
+  <project path="u-boot" name="android-u-boot" remote="ayufan" revision="master"/>
 
   <!-- Rockchip's HAL projects. -->
   <project path="hardware/realtek" name="hardware-realtek" remote="rock64" revision="thzy_develop" />
