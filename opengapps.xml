@@ -8,4 +8,6 @@
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+  
+  <project path="vendor/ayufan/apps" name="vendor-ayufan-apps" remote="ayufan-pine64" revision="master" groups="pdk" />
 </manifest>
