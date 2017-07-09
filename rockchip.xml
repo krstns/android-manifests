@@ -22,7 +22,7 @@
   <project path="hardware/rockchip/audio" name="hardware-rockchip-audio" remote="rock64" revision="thzy_develop" />
   <project path="hardware/rockchip/camera" name="hardware-rockchip-camera" remote="rock64" revision="thzy_develop" />
   <project path="hardware/rockchip/hdmicec" name="hardware-rockchip-hdmicec" remote="rock64" revision="thzy_develop" />
-  <project path="hardware/rockchip/hwcomposer" name="hardware-rockchip-hwcomposer" remote="rock64" revision="thzy_develop" />
+  <project path="hardware/rockchip/hwcomposer" name="hardware-rockchip-hwcomposer" remote="ayufan" revision="nougat-7.1" />
   <project path="hardware/rockchip/jpeghw" name="hardware-rockchip-jpeghw" remote="rock64" revision="thzy_develop" />
   <project path="hardware/rockchip/libgralloc" name="hardware-rockchip-libgralloc" remote="rock64" revision="thzy_develop" />
   <project path="hardware/rockchip/libiep" name="hardware-rockchip-libiep" remote="rock64" revision="thzy_develop" />
