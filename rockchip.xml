@@ -50,6 +50,10 @@
   <!-- SuperSU -->
   <project path="vendor/supersu" name="vendor-supersu" clone-depth="1" revision="nougat" remote="ayufan-pine64" />
 
+  <!-- Do not sell the soul -->
+  <remove-project name="platform/packages/apps/Provision" />
+  <project path="packages/apps/Provision" name="packages-apps-Provision" remote="ayufan" revision="nougat-7.1" />
+	
   <!-- Android Open Source overwrites -->
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
