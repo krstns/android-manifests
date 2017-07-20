@@ -92,7 +92,7 @@
 
   <project path="bionic" name="platform-bionic" remote="rock64" revision="thzy_develop" />
   <project path="bootable/recovery" name="platform-bootable-recovery" remote="rock64" revision="thzy_develop" />
-  <project path="build" name="platform-build" remote="rock64" revision="thzy_develop">
+  <project path="build" name="platform-build" remote="ayufan" revision="nougat-7.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="external/libjpeg-turbo" name="platform-external-libjpeg-turbo" remote="rock64" revision="thzy_develop" />
