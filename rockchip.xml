@@ -3,6 +3,10 @@
   <remote name="rock64" fetch="https://github.com/rock64-android/" />
   <remote name="ayufan" fetch="https://github.com/ayufan-rock64/" />
 
+  <!-- ayufan's integration -->
+  <project path="vendor/ayufan/rockchip" name="vendor-ayufan-rockchip" remote="ayufan" revision="master" groups="pdk" />
+  <project path="rkbin" name="rkbin" remote="ayufan" revision="master" groups="pdk" />
+
   <!-- Rockchip device integration -->
   <project path="device/rockchip/common" name="device-rockchip-common" remote="ayufan" revision="nougat">
       <copyfile src=".classpath" dest=".classpath"/>
