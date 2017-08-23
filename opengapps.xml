@@ -3,8 +3,8 @@
   <remote name="opengapps" fetch="https://github.com/opengapps/" />
   <remote name="ayufan-pine64" fetch="https://github.com/ayufan-pine64" />
 
-  <project path="vendor/google/atv-build" name="opengapps_atv_build" revision="nougat" remote="ayufan-pine64" />
-  <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/atv-build" name="opengapps_atv_build" revision="nougat" remote="ayufan-pine64" />
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
