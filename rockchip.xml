@@ -104,7 +104,7 @@
   <project path="external/skia" name="platform-external-skia" remote="rock64" revision="thzy_develop" />
   <project path="external/tinyalsa" name="platform-external-tinyalsa" remote="rock64" revision="thzy_develop" />
   <project path="external/wpa_supplicant_8" name="platform-external-wpa_supplicant_8" remote="rock64" revision="thzy_develop" />
-  <project path="frameworks/av" name="platform-frameworks-av" remote="rock64" revision="thzy_develop" />
+  <project path="frameworks/av" name="platform-frameworks-av" remote="ayufan" revision="nougat-7.1" />
   <project path="frameworks/base" name="platform-frameworks-base" remote="ayufan" revision="nougat-7.1" />
   <project path="frameworks/ex" name="platform-frameworks-ex" remote="rock64" revision="thzy_develop" />
   <project path="frameworks/native" name="platform-frameworks-native" remote="rock64" revision="thzy_develop" />
