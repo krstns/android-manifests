@@ -17,7 +17,7 @@
 	  <copyfile src="build.sh" dest="build.sh"/>
   </project>
   <project path="rkst" name="rkst" remote="rock64" revision="thzy_develop"/>
-  <project path="vendor/rockchip/common" name="vendor-rockchip-common" remote="rock64" revision="master"/>
+  <project path="vendor/rockchip/common" name="vendor-rockchip-common" remote="ayufan" revision="master"/>
   <project path="kernel" name="android-kernel" remote="ayufan" revision="master"/>
   <project path="u-boot" name="android-u-boot" remote="ayufan" revision="master"/>
 

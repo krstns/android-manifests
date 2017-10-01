@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="cm" fetch="https://github.com/CyanogenMod/" />
+  <remote name="lineageos" fetch="https://github.com/LineageOS/" />
+
+  <project name="android_external_ffmpeg" path="external/ffmpeg" remote="lineageos" revision="cm-14.1" groups="pdk" />
+  <project name="android_external_stagefright-plugins" path="external/stagefright-plugins" remote="lineageos" revision="cm-14.1" groups="pdk" />
+</manifest>
