@@ -2,6 +2,7 @@
 <manifest>
   <remote name="rock64" fetch="https://github.com/rock64-android/" />
   <remote name="ayufan" fetch="https://github.com/ayufan-rock64/" />
+  <remote name="ayufan" fetch="https://github.com/krstns/" />
 
   <!-- ayufan's integration -->
   <project path="vendor/ayufan/rockchip" name="vendor-ayufan-rockchip" remote="ayufan" revision="master" groups="pdk" />
@@ -18,7 +19,7 @@
   </project>
   <project path="rkst" name="rkst" remote="rock64" revision="thzy_develop"/>
   <project path="vendor/rockchip/common" name="vendor-rockchip-common" remote="ayufan" revision="master"/>
-  <project path="kernel" name="android-kernel" remote="ayufan" revision="master"/>
+  <project path="kernel" name="android-kernel" remote="krstns" revision="master"/>
   <project path="u-boot" name="android-u-boot" remote="ayufan" revision="master"/>
 
   <!-- Rockchip's HAL projects. -->
