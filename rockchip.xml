@@ -2,7 +2,7 @@
 <manifest>
   <remote name="rock64" fetch="https://github.com/rock64-android/" />
   <remote name="ayufan" fetch="https://github.com/ayufan-rock64/" />
-  <remote name="ayufan" fetch="https://github.com/krstns/" />
+  <remote name="krstns" fetch="https://github.com/krstns/" />
 
   <!-- ayufan's integration -->
   <project path="vendor/ayufan/rockchip" name="vendor-ayufan-rockchip" remote="ayufan" revision="master" groups="pdk" />
